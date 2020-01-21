@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/main_activity_constraint_layout"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/box_one_text"
-        style="@style/RedBox"
+        style="@style/WhiteBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/margin_wide"
@@ -21,7 +22,7 @@
 
     <TextView
         android:id="@+id/box_two_text"
-        style="@style/RedBox"
+        style="@style/WhiteBox"
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_marginStart="16dp"
@@ -32,7 +33,7 @@
 
     <TextView
         android:id="@+id/box_three_text"
-        style="@style/RedBox"
+        style="@style/WhiteBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -46,7 +47,7 @@
 
     <TextView
         android:id="@+id/box_four_text"
-        style="@style/RedBox"
+        style="@style/WhiteBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -61,7 +62,7 @@
 
     <TextView
         android:id="@+id/box_five_text"
-        style="@style/RedBox"
+        style="@style/WhiteBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
