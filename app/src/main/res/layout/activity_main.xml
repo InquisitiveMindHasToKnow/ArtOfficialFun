@@ -73,4 +73,57 @@
         app:layout_constraintStart_toEndOf="@+id/box_two_text"
         app:layout_constraintTop_toBottomOf="@+id/box_four_text" />
 
+    <TextView
+        android:id="@+id/box_six_text"
+        style="@style/WhiteBox"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/box_six"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box_five_text" />
+
+    <TextView
+        android:id="@+id/box_seven_text"
+        style="@style/WhiteBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/box_seven"
+        app:layout_constraintBottom_toTopOf="@+id/box_eight_text"
+        app:layout_constraintEnd_toStartOf="@+id/box_six_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box_five_text" />
+
+    <TextView
+        android:id="@+id/box_eight_text"
+        style="@style/WhiteBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/box_eight"
+        app:layout_constraintEnd_toStartOf="@+id/box_six_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box_seven_text" />
+
+    <TextView
+        android:id="@+id/box_nine_text"
+        style="@style/WhiteBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/box_eight"
+        app:layout_constraintTop_toBottomOf="@+id/box_eight_text"
+        app:layout_constraintEnd_toStartOf="@+id/box_six_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/box_six_text"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

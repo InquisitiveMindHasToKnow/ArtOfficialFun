@@ -8,4 +8,8 @@
     <string name="blue_button">BLUE</string>
     <string name="yellow_button">YELLOW</string>
     <string name="black_button">BLACK</string>
+    <string name="box_six">Box Six</string>
+    <string name="box_eight">Box Eight</string>
+    <string name="box_seven">Box Seven</string>
+    <string name="box_eight">Box Eight</string>
 </resources>
