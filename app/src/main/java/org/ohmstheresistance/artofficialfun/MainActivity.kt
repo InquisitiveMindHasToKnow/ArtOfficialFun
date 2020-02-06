@@ -38,14 +38,25 @@ class MainActivity : AppCompatActivity() {
             R.id.box_eight_text -> view.setBackgroundColor(getColor(R.color.colorSix))
             R.id.box_nine_text -> view.setBackgroundColor(getColor(R.color.colorEight))
 
-            R.id.blue_button -> box_four_text.setBackgroundColor(getColor(R.color.blue_color))
-            R.id.yellow_button -> box_six_text.setBackgroundColor(getColor(R.color.yellow_color))
-            R.id.green_button -> box_eight_text.setBackgroundColor(getColor(R.color.green_color))
+            R.id.blue_button -> {
+                box_one_text.setBackgroundColor(getColor(R.color.blue_color))
+                box_four_text.setBackgroundColor(getColor(R.color.blue_color))
+                box_seven_text.setBackgroundColor(getColor(R.color.blue_color))
+            }
+            R.id.yellow_button -> {
+                box_three_text.setBackgroundColor(getColor(R.color.yellow_color))
+                box_six_text.setBackgroundColor(getColor(R.color.yellow_color))
+                box_nine_text.setBackgroundColor(getColor(R.color.yellow_color))
+            }
+            R.id.green_button -> {
+                box_two_text.setBackgroundColor(getColor(R.color.green_color))
+                box_five_text.setBackgroundColor(getColor(R.color.green_color))
+                box_eight_text.setBackgroundColor(getColor(R.color.green_color))
+            }
+
 
             else -> view.setBackgroundColor(getColor(android.R.color.holo_red_light))
         }
-
     }
-
 
 }
