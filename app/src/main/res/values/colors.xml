@@ -14,5 +14,9 @@
     <color name="colorEight">#415F6B</color>
     <color name="colorNine">#825C2E</color>
     <color name="colorTen">#C3C2C0</color>
+    
+    <color name="yellow_color">#FFC107</color>
+    <color name="green_color">#12C700</color>
+    <color name="blue_color">#2255DC</color>
 
 </resources>

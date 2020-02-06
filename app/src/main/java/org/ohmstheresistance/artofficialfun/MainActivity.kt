@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun setListeners() {
         val clickableViews: List<View> =
-            listOf(box_one_text, box_two_text, box_three_text, box_four_text, box_five_text, box_six_text,
-                box_seven_text, box_eight_text, box_nine_text, main_activity_constraint_layout)
+            listOf(box_one_text, box_two_text, box_three_text, box_four_text, box_five_text, box_six_text, box_seven_text, box_eight_text,
+                box_nine_text, main_activity_constraint_layout, blue_button, yellow_button, green_button )
 
         for (item in clickableViews) {
 
@@ -38,6 +38,9 @@ class MainActivity : AppCompatActivity() {
             R.id.box_eight_text -> view.setBackgroundColor(getColor(R.color.colorSix))
             R.id.box_nine_text -> view.setBackgroundColor(getColor(R.color.colorEight))
 
+            R.id.blue_button -> box_four_text.setBackgroundColor(getColor(R.color.blue_color))
+            R.id.yellow_button -> box_six_text.setBackgroundColor(getColor(R.color.yellow_color))
+            R.id.green_button -> box_eight_text.setBackgroundColor(getColor(R.color.green_color))
 
             else -> view.setBackgroundColor(getColor(android.R.color.holo_red_light))
         }
